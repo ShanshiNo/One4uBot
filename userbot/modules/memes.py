@@ -1287,6 +1287,14 @@ async def nou(e):
                      "`\n┫┈┈  NoU\n┃┈╰╰━━━━╯`"
 "`\n┗━━┻━┛`")                   
 
+@register(outgoing=True, pattern="^.ook$")
+async def nou(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("`\n‌‌‎  ___  _  __
+ "'\n/ _ \| |/ /
+"'\n| | | | ' / 
+"'\n| |_| | . \ 
+"'\n\___/|_|\_\'")
                                                                                     
 CMD_HELP.update({
     "memes":
