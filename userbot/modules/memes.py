@@ -1288,7 +1288,7 @@ async def nou(e):
 "`\n┗━━┻━┛`")                   
 
 @register(outgoing=True, pattern="^.ook$")
-async def nou(e):
+async def ook(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n ___  _  __`"
                      "`\n/ _ \| |/ /`"
