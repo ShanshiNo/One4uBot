@@ -76,27 +76,27 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.community$")
 async def bot_community(community):
-    """ For .community command, just returns OG Paperplane's group link. """
+    """ For .community command, just returns Twips's group link. """
     await community.edit(
-        "Join RaphielGang's awesome userbot community: @userbot_support"
-        "\nDo note that Paperplane Extended is an unoficial fork of their "
-        "Paperplane project and it may get limited or no support for bugs.")
+        "Join Tweeter Group's : @twipsgroup"
+        "\nDuduk melingkar"
+        "Gelas berputar.")
 
 
 @register(outgoing=True, pattern="^.support$")
 async def bot_support(wannahelp):
     """ For .support command, just returns the group link. """
     await wannahelp.edit(
-        "Join the OpenUserBot Channel: @PaperPlaneExtended_news \
-        \nJoin the Community Userbot Indo Chat: @userbotindo")
+        "Join Group Twitter Official : @twipsgroup \
+        \nJoin the Community Tweeter Indo Chat: @twipsgroup")
 
 @register(outgoing=True, pattern="^.contributor$")
 async def contributor(e):
-    await e.edit("[MoveAngel](https://t.me/MoveAngel)")
+    await e.edit("[ShanshiNo](https://t.me/ShanshiNo)")
 
 @register(outgoing=True, pattern="^.creator$")
 async def creator(e):
-    await e.edit("[TeKnoways](https://t.me/Three_Cube_TeKnoways)")
+    await e.edit("[ShanshiNo](https://t.me/ShanshiNo)")
 
 
 @register(outgoing=True, pattern="^.readme$")
@@ -131,7 +131,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "Click [HERE](https://github.com/MoveAngel/One4uBot) to open One4uBot's GitHub page."
+        "Click [HERE](https://github.com/ShanshiNo/Satanic) to open One4uBot's GitHub page."
     )
 
 
